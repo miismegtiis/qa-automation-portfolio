@@ -14,7 +14,8 @@ Additional Scenarios:
     2. Handle JS Prompt by entering text and verifying the result.
 
 Expected Result:
-The correct confirmation message is displayed after interacting with each alert type.'''
+The correct confirmation message is displayed after interacting with each alert type.
+'''
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

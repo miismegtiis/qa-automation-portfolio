@@ -31,7 +31,7 @@ class TestLogin:
     def teardown_method(self):
         self.browser.quit()
 
-    # Helper method
+        # Helper method
     def login(self, username, password):
         self.browser.find_element(*self.USERNAME).send_keys(username)
         self.browser.find_element(*self.PASSWORD).send_keys(password)
